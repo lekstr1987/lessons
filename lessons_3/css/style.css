@@ -1,0 +1,39 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url(reset.css);
+
+.header{
+    color: red;
+    background: gold;
+}
+
+.main.text{
+    color: white;
+    background:blue ;
+}
+
+.text{
+    color: blueviolet;
+}
+
+.info{
+    color: green;
+}
+
+.info2{
+    color: aqua;
+}
+
+.info3{
+    color: brown;
+}
+
+#verstka{
+    color: white;
+    background: black;
+}
+.contact{
+    color: white;
+    background: red;
+}
