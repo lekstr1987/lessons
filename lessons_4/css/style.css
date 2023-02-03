@@ -1,0 +1,87 @@
+/* ----------------- */
+/* --RESET STYLES--- */
+/* ----------------- */
+@import url(reset.css);
+
+/* --Шрифт вручну-- */
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'),
+        url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('../fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ----------------- */
+
+body{
+    font-family: "Libre Franklin";
+    font-size: 20px;
+}
+
+.title{
+    font-family: "Lobster";
+    font-size: 40px;
+    font-weight: 700;
+    color: blue;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 5px #00eeff;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    background-color: #e5ff00d8;
+}
+
+.zp{
+    font-family: "Oswald";
+    color: blueviolet;
+    font-style: oblique;
+}
+
+.Chortyzja{
+    color: rgba(55, 240, 9, 0.7);
+    text-decoration: underline;
+}
+
+.history{
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.tree{
+    text-align: justify;
+    color: #ff9900;
+}
+
+.city{
+    font-size: 30px;
+    line-height: 2;
+    color: rgba(0, 0, 255, 0.603);
+    text-indent: 30px;
+}
+
+.dnipro{
+    word-spacing: 20px;
+    color: red;
+}
+.google{
+    background-color: #e5ff00d8;
+    text-align: center;
+    color: blue;
+    font-family: "Lobster";
+}
+
+
+
+
+
